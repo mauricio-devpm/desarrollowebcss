@@ -1,0 +1,33 @@
+body {
+    text-align: center;
+}
+
+#principal {
+    display: block;
+    width: 500px;
+    margin: 50px auto;
+    padding: 15px;
+    text-align: center;
+    border: 1px solid#999999;
+    background: #dddddd;
+    -moz-border-radius: 20px / 10px;
+    -webkit-border-radius: 20px / 10px;
+    border-radius: 20px /10px;
+    box-shadow: rgb(150, 150, 150) 10px 10px 5px inset;
+    background: -webkit-linear-gradient(top, #ffffff, #006699);
+    background: -moz-linear-gradient(top, #ffffff, #006699);
+    background: linear-gradient(top, #ffffff, #006699);
+    background: -webkit-radial-gradient(center, circle, #ffffff, #006699);
+    background: radial-gradient(center, circle, #ffffff, #006699);
+}
+
+#titulo {
+    font: bold 36px fuente2, verdana sans-serif;
+    text-shadow: rgb(195, 91, 16) 3px 3px 5px;
+    font-family: 'Train One', cursive;
+}
+
+@font-face {
+    font-family: 'fuente2';
+    src: url('../fonts/DelaGothicOne-Regular.ttf')
+}

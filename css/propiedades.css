@@ -1,0 +1,36 @@
+body {
+    text-align: center;
+}
+
+#propiedades {
+    display: block;
+    width: 500px;
+    margin: 50px auto;
+    padding: 15px;
+    text-align: center;
+    border: 1px solid#999999;
+    -moz-border-radius: 20px / 10px;
+    -webkit-border-radius: 20px / 10px;
+    border-radius: 20px /10px;
+    box-shadow: rgb(150, 150, 150) 5px 5px 10px;
+    background: rgba(16, 55, 175, .6);
+    /* -moz-transform: scale(1, -1);
+    -webkit-transform: scale(1, -1); */
+    /* -moz-transform: rotate(30deg);
+    -webkit-transform: rotate(30deg); */
+    /* -moz-transform: skewx(10deg);
+    -webkit-transform: skewy(10deg); */
+    /* -moz-transform: translate(100px);
+    -webkit-transform: translate(100px); */
+}
+
+#propiedades:hover {
+    -moz-transform: rotate (15deg);
+    -webkit-transform: rotate (15deg);
+}
+
+#proptitulo {
+    font: bold 36px fuente2, verdana sans-serif;
+    text-shadow: rgb(195, 91, 16) 3px 3px 5px;
+    font-family: 'Train One', cursive;
+}
